@@ -10,3 +10,5 @@ To help guide you, here are hints around each of the bugs:
 1. Why is only one name being produced for each bullet, shouldn’t it be a unique name at each bullet point?
 2. That is a ton of decimal places.
 3. Why is there a negative STI adjustment? Those numbers also seem big
+
+Make sure to fork or download this repo so that you have your own instance of the code. Make the corrections, then upload them to your own repo.
