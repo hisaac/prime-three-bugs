@@ -26,7 +26,7 @@ for(var i = 0; i < array.length; i++){
 function calculateSTI(array){
   var newArray = [];
 
-  newArray[0] = array[0];
+  newArray[0] = array[0]; // employee name
 
   var employeeNumber = array[1];
   var baseSalary = array[2];
@@ -37,9 +37,9 @@ function calculateSTI(array){
     bonus = 0.13;
   }
 
-  newArray[1] = bonus;
-  newArray[2] = baseSalary * (1.0 + bonus);
-  newArray[3] = baseSalary * bonus;
+  newArray[1] = bonus; // percentage of STI employee to receive
+  newArray[2] = baseSalary * (1.0 + bonus); // adjusted annual compensation
+  newArray[3] = baseSalary * bonus; //total bonus rounded to nearest dollar
   console.log(newArray[0] + " " + newArray[1] + " " + newArray[2] + " " + newArray[3]);
   return newArray;
 }
